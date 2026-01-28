@@ -1,0 +1,4 @@
+*-backups
+.DS_STORE
+*.lck
+\#auto_saved_files\#
