@@ -34,11 +34,6 @@
           "color": "rgb(166, 216, 84)",
           "signal": "V(/FxRaw)",
           "trace_type": 257
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/Tone)",
-          "trace_type": 257
         }
       ]
     }

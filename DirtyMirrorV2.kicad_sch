@@ -7492,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 90.17 53.34 0)
 			(effects
 				(font
@@ -8066,7 +8066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 361.95 175.895 0)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:THT_GND_WIRE"
+		(property "Footprint" "Connector_Pin:THT_GND_WIRE"
 			(at 107.95 167.005 0)
 			(effects
 				(font
@@ -10063,7 +10063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 332.74 163.83 0)
 			(effects
 				(font
@@ -11586,7 +11586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 57.785 90.805 0)
 			(effects
 				(font
@@ -11781,7 +11781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 55.245 50.8 0)
 			(effects
 				(font
@@ -12177,7 +12177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 299.72 77.47 0)
 			(effects
 				(font
@@ -12425,7 +12425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.914 49.784 90)
 			(effects
 				(font
@@ -12563,7 +12563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 90.424 43.434 90)
 			(effects
 				(font
@@ -13837,7 +13837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 101.6 92.075 0)
 			(effects
 				(font
