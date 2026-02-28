@@ -6210,7 +6210,7 @@
 		(fields_autoplaced yes)
 		(uuid "07aa0c56-08b3-47e0-8237-19cf1d8ed632")
 		(property "Reference" "R4"
-			(at 73.533 171.4499 0)
+			(at 73.66 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,8 +6218,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
-			(at 73.533 173.9899 0)
+		(property "Value" "6k8"
+			(at 73.66 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13945,7 +13945,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "470k"
 			(at 327.025 52.07 90)
 			(effects
 				(font
@@ -14902,7 +14902,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "33k"
 			(at 271.145 49.53 90)
 			(effects
 				(font
