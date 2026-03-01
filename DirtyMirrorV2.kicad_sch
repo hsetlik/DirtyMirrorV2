@@ -9352,7 +9352,7 @@
 		(fields_autoplaced yes)
 		(uuid "57a97a06-bf05-48af-96eb-079b44eaaaf9")
 		(property "Reference" "R27"
-			(at 299.212 190.4999 0)
+			(at 299.72 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,8 +9360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 299.212 193.0399 0)
+		(property "Value" "56k"
+			(at 299.72 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "wpos=0.2 Rtot=100k"
+		(property "Sim.Params" "wpos=0.2 Rtot=10k"
 			(at 288.29 76.581 0)
 			(effects
 				(font
@@ -14693,15 +14693,15 @@
 		(fields_autoplaced yes)
 		(uuid "f36d60bb-8a7d-458f-ba01-11157ad4812c")
 		(property "Reference" "R23"
-			(at 269.24 77.089 90)
+			(at 269.24 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "56k"
-			(at 269.24 79.629 90)
+		(property "Value" "100k"
+			(at 269.24 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +14902,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "82k"
 			(at 271.145 49.53 90)
 			(effects
 				(font
