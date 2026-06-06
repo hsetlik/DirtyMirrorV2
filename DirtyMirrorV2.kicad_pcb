@@ -638,7 +638,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "wpos=0.2 Rtot=100k"
+		(property "Sim.Params" "wpos=0.2 Rtot=10k"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2508,7 +2508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "82k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "7fe50458-68a1-4f86-bd9b-e7e9653fd8cb")
@@ -3832,7 +3832,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "47k"
 			(at 0 -1.65 180)
 			(layer "B.Fab")
 			(uuid "e6866176-2b7f-4706-ab6b-17e93d9f7c5a")
@@ -4694,7 +4694,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "180bb9e0-7b9d-44cb-bc1d-4ee191ae1942")
@@ -7068,7 +7068,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "22k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "22a126ac-44e7-4956-9274-2189e258202c")
@@ -7910,7 +7910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "56k"
 			(at 0 -1.65 180)
 			(layer "B.Fab")
 			(uuid "82f2817f-5974-4f06-b5c8-323e46b6c415")
@@ -10338,7 +10338,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "56k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "6dba6458-d86d-4d86-8c04-6f69d0a30935")
@@ -10758,7 +10758,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "47k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "7c3928f5-1017-4da7-bb5a-8ab4378e2d8d")
@@ -11940,7 +11940,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "22k"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "d3c0ce6a-344b-414d-bbe0-4f2325528f58")
@@ -14030,7 +14030,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "100k"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "7d9f2710-7d29-48a8-b431-52115831e49c")
