@@ -7192,7 +7192,7 @@
 		(fields_autoplaced yes)
 		(uuid "15418f23-ffe6-46e5-bd37-55085906c4cb")
 		(property "Reference" "R32"
-			(at 310.642 155.5749 0)
+			(at 311.15 155.5749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7202,8 +7202,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
-			(at 310.642 158.1149 0)
+		(property "Value" "18k"
+			(at 311.15 158.1149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
