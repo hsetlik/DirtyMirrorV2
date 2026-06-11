@@ -9574,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "18k"
 			(at 241.935 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14716,7 +14716,7 @@
 				)
 			)
 		)
-		(property "Value" "12k"
+		(property "Value" "18k"
 			(at 250.825 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
