@@ -6677,7 +6677,7 @@
 		(fields_autoplaced yes)
 		(uuid "116f7dba-6f80-4fc8-8e88-d919e4d5190a")
 		(property "Reference" "R28"
-			(at 299.212 200.6599 0)
+			(at 299.72 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6687,8 +6687,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 299.212 203.1999 0)
+		(property "Value" "47k"
+			(at 299.72 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10212,7 +10212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 299.72 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
