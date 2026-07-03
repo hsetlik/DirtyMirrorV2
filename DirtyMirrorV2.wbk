@@ -1,4 +1,5 @@
 {
+  "custom_cursors": 2,
   "last_sch_text_sim_command": "",
   "tabs": [
     {
@@ -21,11 +22,6 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(179, 179, 179)",
-          "signal": "V(/Byp)",
-          "trace_type": 257
-        },
-        {
           "color": "rgb(166, 86, 40)",
           "signal": "V(/FxFull)",
           "trace_type": 257
@@ -36,8 +32,39 @@
           "trace_type": 257
         }
       ]
+    },
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 100 20 20k",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/FxFull) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/FxRaw) (gain)",
+          "trace_type": 521
+        }
+      ]
     }
   ],
   "user_defined_signals": [],
-  "version": 6
+  "version": 7
 }
