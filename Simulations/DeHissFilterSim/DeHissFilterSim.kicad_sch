@@ -2239,7 +2239,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cbf8f06-a839-481d-8359-4aa697eeb3bf")
 		(property "Reference" "R16"
-			(at 77.47 42.545 90)
+			(at 77.47 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2248,8 +2248,8 @@
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 77.47 45.085 90)
+		(property "Value" "18k"
+			(at 77.47 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2410,7 +2410,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "33k"
 			(at 86.36 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3800,7 +3800,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfd8b528-d375-4b49-81e6-a3fc32cef53c")
 		(property "Reference" "R20"
-			(at 86.36 42.545 90)
+			(at 86.36 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3809,8 +3809,8 @@
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 86.36 45.085 90)
+		(property "Value" "22k"
+			(at 86.36 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4147,7 +4147,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "47k"
 			(at 77.47 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
