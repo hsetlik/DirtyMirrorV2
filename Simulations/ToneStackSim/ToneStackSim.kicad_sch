@@ -900,6 +900,16 @@
 	)
 	(text "Tone Control"
 		(exclude_from_sim no)
+		(at 108.204 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59660342-a22d-48e4-9af3-34eb8ad038c3")
+	)
+	(text "Tone Control"
+		(exclude_from_sim no)
 		(at 108.204 61.087 0)
 		(effects
 			(font
@@ -915,6 +925,12 @@
 		(uuid "02695f80-96d0-4dc8-8d21-dc325e1b071d")
 	)
 	(junction
+		(at 81.28 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ffd5465-ab3f-4e42-928a-0193087cfa0d")
+	)
+	(junction
 		(at 92.71 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -927,10 +943,44 @@
 		(uuid "80c13329-56ab-4bd4-a195-e710e8843f32")
 	)
 	(junction
+		(at 92.71 147.955)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "856ca016-05e0-44e0-9bfb-9bd28d13d547")
+	)
+	(junction
 		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9430265a-4a94-4a59-9cad-1a1517b37d1a")
+	)
+	(junction
+		(at 92.71 118.745)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4755f3-ebbc-4353-8038-26069fa4e061")
+	)
+	(junction
+		(at 81.28 118.745)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d3dc4e5-c65e-4faf-b4bf-9c913aa4d70f")
+	)
+	(junction
+		(at 81.28 147.955)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8bff1cd-b1de-4342-8304-28a6c7fed3cf")
+	)
+	(wire
+		(pts
+			(xy 92.71 147.955) (xy 91.44 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025d16da-d208-4763-87fe-178cde572db4")
 	)
 	(wire
 		(pts
@@ -944,13 +994,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 95.885) (xy 81.28 98.425)
+			(xy 81.28 95.885) (xy 81.28 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06971d3f-6fb7-49c2-b896-84bdd9b5cd7b")
+	)
+	(wire
+		(pts
+			(xy 116.84 133.985) (xy 116.84 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb4598b-5120-4060-9ceb-ed071942950e")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.745) (xy 92.71 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fce830d-2965-49e6-b720-94fb585dbfa5")
 	)
 	(wire
 		(pts
@@ -961,6 +1031,16 @@
 			(type default)
 		)
 		(uuid "2eeb02c8-956a-4d3e-986c-f5b187d42a0c")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.745) (xy 91.44 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fae38f1-2963-47fc-b8b0-61dddd92bedb")
 	)
 	(wire
 		(pts
@@ -984,6 +1064,36 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 135.255) (xy 67.31 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4d87f9-a8ed-486f-a9d1-0566aae3ba01")
+	)
+	(wire
+		(pts
+			(xy 81.28 147.955) (xy 81.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429287a0-f87e-4704-8035-abd9209e05b9")
+	)
+	(wire
+		(pts
+			(xy 92.71 126.365) (xy 92.71 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442ba28d-4490-4ab7-878d-fa0564bd57c3")
+	)
+	(wire
+		(pts
 			(xy 116.84 82.55) (xy 92.71 82.55)
 		)
 		(stroke
@@ -1004,6 +1114,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 156.21) (xy 92.71 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f877116-23b3-4546-ba19-5f9ffe786e24")
+	)
+	(wire
+		(pts
+			(xy 92.71 147.955) (xy 92.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560bc3db-70e2-4d26-97a9-a493b0635e1e")
+	)
+	(wire
+		(pts
+			(xy 81.28 118.745) (xy 83.82 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cc5f8d-093b-43e9-9ee1-85f4e9b164ab")
+	)
+	(wire
+		(pts
 			(xy 81.28 64.135) (xy 81.28 53.34)
 		)
 		(stroke
@@ -1014,6 +1154,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 147.955) (xy 81.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e37e50-96e0-4c40-8ccc-b2a20a7db545")
+	)
+	(wire
+		(pts
 			(xy 81.28 53.34) (xy 83.82 53.34)
 		)
 		(stroke
@@ -1021,6 +1171,16 @@
 			(type default)
 		)
 		(uuid "87356482-7b65-4812-89e5-1587fcd48817")
+	)
+	(wire
+		(pts
+			(xy 67.31 118.745) (xy 81.28 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dbd435-6980-4e24-a850-441f0cd0c907")
 	)
 	(wire
 		(pts
@@ -1064,6 +1224,46 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 161.29) (xy 81.28 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82585b3-f163-49d4-a7f2-f41a676999b8")
+	)
+	(wire
+		(pts
+			(xy 116.84 126.365) (xy 116.84 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee933b4-2bca-49b3-b56e-5f3a4a9e5551")
+	)
+	(wire
+		(pts
+			(xy 67.31 125.095) (xy 67.31 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf83be80-e99e-43f4-a58c-a86b4d5f3a7f")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fa94b4-1ef4-431c-9fd5-56b449a4814f")
+	)
+	(wire
+		(pts
 			(xy 92.71 82.55) (xy 92.71 83.185)
 		)
 		(stroke
@@ -1084,6 +1284,36 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 147.955) (xy 81.28 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8589f0-40d3-4046-9b44-d8df9add71bb")
+	)
+	(wire
+		(pts
+			(xy 120.65 130.175) (xy 125.73 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd2f5c9-4ed3-4d11-b698-c42588baa803")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 81.28 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44f0df0-3f5a-4a5f-9ac3-5255592f1e7f")
+	)
+	(wire
+		(pts
 			(xy 92.71 90.805) (xy 92.71 93.345)
 		)
 		(stroke
@@ -1091,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "dc231c1f-658d-418b-b29e-ce0972cb9306")
+	)
+	(wire
+		(pts
+			(xy 116.84 147.955) (xy 92.71 147.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7e36e1-888a-4013-9690-dac4b67fbf48")
 	)
 	(wire
 		(pts
@@ -1114,6 +1354,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 171.45) (xy 81.28 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed21884f-3918-4d27-8e6c-b291179a8078")
+	)
+	(wire
+		(pts
 			(xy 81.28 106.045) (xy 81.28 106.68)
 		)
 		(stroke
@@ -1132,17 +1382,17 @@
 		)
 		(uuid "f61dfefc-ccd8-44f1-8b08-6e92df1bcb78")
 	)
-	(label "LowPass"
-		(at 92.71 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 81.28 118.745)
 		)
-		(uuid "21fa5c86-1979-44df-8374-89502eff2646")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe968ace-d507-48c1-94ac-292f1bad8ebf")
 	)
-	(label "HiPass"
+	(label "HP1"
 		(at 92.71 53.34 0)
 		(effects
 			(font
@@ -1150,19 +1400,59 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8dcd2d8b-18c2-4329-ac45-85e317606b64")
+		(uuid "28fac7b4-bbef-4a80-bbb4-b87d2111b870")
 	)
-	(label "In"
-		(at 67.31 53.34 0)
+	(label "Out2"
+		(at 125.73 130.175 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "982ce3bf-8b0d-4623-b42c-49a85490dd3c")
+		(uuid "5778be15-4e9d-4876-abe6-30d2b5830394")
 	)
-	(label "Out"
+	(label "Dry"
+		(at 83.82 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c322947-1de7-4ba2-9055-953270c456a6")
+	)
+	(label "LP2"
+		(at 92.71 147.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89ed42bc-e528-4e59-af69-0ca70862033e")
+	)
+	(label "LP1"
+		(at 92.71 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92045d10-66c8-4540-99f6-41b854a5294b")
+	)
+	(label "HP2"
+		(at 92.71 118.745 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b42abcc2-0630-48df-a675-50b488ced860")
+	)
+	(label "Out1"
 		(at 125.73 64.77 0)
 		(effects
 			(font
@@ -1171,6 +1461,134 @@
 			(justify left bottom)
 		)
 		(uuid "bea90b81-c634-436e-8806-8063ff39f051")
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 67.31 130.175 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099e1447-0e44-4404-83d4-e340327a08c6")
+		(property "Reference" "V2"
+			(at 71.12 127.5051 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 71.12 130.0451 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 67.31 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 67.31 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 67.31 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "dc=0 ampl=1 f=440 td=0 theta=0 phase=0 ac=0.3"
+			(at 71.12 132.5851 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 67.31 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 67.31 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6f521437-9b3e-42c0-8004-ca56bf948df2")
+		)
+		(pin "2"
+			(uuid "ec8fef56-89ab-4f6e-b526-54aa915bb2e2")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1249,6 +1667,135 @@
 			(project "ToneStackSim"
 				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:Potentiometer")
+		(at 116.84 130.175 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "257a5310-1e4f-4ce7-9f7d-5a3980311189")
+		(property "Reference" "R2"
+			(at 114.3 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Potentiometer"
+			(at 114.3 130.175 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer for Simulation"
+			(at 116.84 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 116.84 150.241 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 116.84 148.463 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "r=100k pos=0.5"
+			(at 114.3 131.445 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 116.84 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f3e99265-c922-4bd2-8749-97e0136def00")
+		)
+		(pin "2"
+			(uuid "bcaa0a7e-cfec-40f4-ac19-1621700bfe38")
+		)
+		(pin "1"
+			(uuid "bda1bd2d-7053-450d-a1f1-3d6c6324b4c5")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1466,6 +2013,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 87.63 118.745 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a1feda-91cc-416c-8cbe-215c87a1cb5e")
+		(property "Reference" "C12"
+			(at 87.63 111.887 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 87.63 114.427 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 91.44 117.7798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12600dd8-9d43-4bd9-9906-e115c837b8aa")
+		)
+		(pin "2"
+			(uuid "4c21f37b-f094-4a8e-8f63-b04b0acda948")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 81.28 106.68 0)
 		(unit 1)
@@ -1625,6 +2252,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 81.28 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae0afea-102f-4792-b152-35077a2453cb")
+		(property "Reference" "R31"
+			(at 83.312 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 83.312 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.296 167.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 81.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38659d38-d4bf-47d7-b7fc-f78d765c76ef")
+		)
+		(pin "2"
+			(uuid "5dcfd58c-1ace-4743-9e34-dcbe72c7a720")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 81.28 92.075 0)
 		(unit 1)
 		(body_style 1)
@@ -1700,6 +2409,85 @@
 			(project "ToneStackSim"
 				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 92.71 127.635 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de15b62-d141-4fce-8885-17a7b5be8586")
+		(property "Reference" "#GND018"
+			(at 92.71 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.71 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 92.71 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 92.71 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5a5f3e3-8ad0-4939-80e3-4fc56a350c34")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "#GND018")
 					(unit 1)
 				)
 			)
@@ -1946,6 +2734,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86662da3-0962-4723-b83b-082e6d1b7e06")
+		(property "Reference" "C13"
+			(at 96.52 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 96.52 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 93.6752 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e706a3ab-0d51-4238-804d-f64b3803e8fe")
+		)
+		(pin "1"
+			(uuid "29a0ff8b-7e3a-4bbc-b23c-173142d20a39")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 92.71 86.995 0)
 		(unit 1)
 		(body_style 1)
@@ -2021,6 +2891,410 @@
 			(project "ToneStackSim"
 				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 92.71 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e96e8b9-b9d7-405a-bc8c-e90ff7190fc2")
+		(property "Reference" "#GND019"
+			(at 92.71 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.71 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 92.71 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 92.71 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3f27a44-9d8d-4143-8e6d-d3dfeba02ac5")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 81.28 172.085 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b5ed70-b6c0-4c62-a2f6-65064f0ac074")
+		(property "Reference" "#GND017"
+			(at 81.28 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 81.28 174.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 81.28 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 81.28 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaa1f29e-09f6-409a-8f24-fc31e4e551b1")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 81.28 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a8c199-5917-4a87-81d6-449f76fa32ff")
+		(property "Reference" "R30"
+			(at 83.82 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 83.82 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.296 157.734 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 81.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fb395f4-06d5-4c3c-9dcf-3343440b0381")
+		)
+		(pin "2"
+			(uuid "7a5c01db-8710-48b7-804d-7a64fef7c3c0")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 92.71 122.555 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3aa7b52-e398-4dfd-b58f-b33021913d7e")
+		(property "Reference" "R34"
+			(at 95.25 121.2849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k"
+			(at 95.25 123.8249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 93.726 122.809 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 92.71 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7b0e755b-cc7f-4d8a-abb0-c40aee8c9eeb")
+		)
+		(pin "1"
+			(uuid "553860b2-242e-4d89-b989-57c91c15a49c")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd0ce0f-6cba-49b8-b762-4e0af13c964b")
+		(property "Reference" "C11"
+			(at 85.344 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 85.344 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 82.2452 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a752f165-fd58-4b9c-b06f-894fcfd620cb")
+		)
+		(pin "2"
+			(uuid "39099bd3-63d2-460d-9c6b-0ddc157b7ff3")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2182,6 +3456,165 @@
 			(project "ToneStackSim"
 				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
 					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 67.31 137.795 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df3a91aa-02a8-490b-98d7-f745483aa0ff")
+		(property "Reference" "#GND016"
+			(at 67.31 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 67.31 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 67.31 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 67.31 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d64ae579-743e-425c-b49f-15fa937816ed")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "#GND016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 147.955 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e987aa92-159c-496f-bb1b-4cdf11d42a7b")
+		(property "Reference" "R33"
+			(at 87.63 141.605 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 87.63 144.145 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 87.884 146.939 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 87.63 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0832c730-0e38-4992-bd78-ffa4b13cc634")
+		)
+		(pin "2"
+			(uuid "35d1eba5-a548-49ce-b701-a4eb9331afa7")
+		)
+		(instances
+			(project "ToneStackSim"
+				(path "/d0cad4bf-a3db-4fd6-a24f-f843d1373f9c"
+					(reference "R33")
 					(unit 1)
 				)
 			)

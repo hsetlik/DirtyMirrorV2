@@ -22,18 +22,13 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "V(/HiPass) (gain)",
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/HP1) (gain)",
           "trace_type": 521
         },
         {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(/LowPass) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/Out) (gain)",
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/HP2) (gain)",
           "trace_type": 521
         }
       ]
