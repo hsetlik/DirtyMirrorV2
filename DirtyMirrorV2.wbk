@@ -22,11 +22,6 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(166, 86, 40)",
-          "signal": "V(/FxFull)",
-          "trace_type": 257
-        },
-        {
           "color": "rgb(166, 216, 84)",
           "signal": "V(/FxRaw)",
           "trace_type": 257
@@ -53,13 +48,8 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/FxFull) (gain)",
-          "trace_type": 521
-        },
-        {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/FxRaw) (gain)",
+          "signal": "V(/Gain) (gain)",
           "trace_type": 521
         }
       ]
