@@ -3655,12 +3655,6 @@
 		(uuid "25ef879b-ed8a-4b60-9906-3cc652731ac6")
 	)
 	(junction
-		(at 59.69 158.115)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3261634c-0f5a-4d2d-a025-674b5a483963")
-	)
-	(junction
 		(at 132.08 71.755)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3823,6 +3817,12 @@
 		(uuid "e0a682d6-847d-4a37-8184-dc1e6ea33274")
 	)
 	(junction
+		(at 81.28 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e465571e-702d-4983-902f-72014fc99268")
+	)
+	(junction
 		(at 280.67 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3943,6 +3943,16 @@
 			(type default)
 		)
 		(uuid "099acd97-56d7-4be1-ad8e-53214afc5285")
+	)
+	(wire
+		(pts
+			(xy 81.28 198.12) (xy 64.77 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae56263-7624-4742-8e30-8f599c523b99")
 	)
 	(wire
 		(pts
@@ -4186,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 200.66) (xy 65.405 200.66)
+			(xy 64.77 200.66) (xy 65.532 200.66)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 167.005) (xy 71.755 168.91)
+			(xy 71.882 167.132) (xy 71.882 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4536,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 159.385) (xy 71.755 158.115)
+			(xy 71.882 154.432) (xy 71.882 159.512)
 		)
 		(stroke
 			(width 0)
@@ -5186,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.216 198.12) (xy 64.77 198.12)
+			(xy 87.122 198.12) (xy 81.28 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5236,16 +5246,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 158.115) (xy 59.69 158.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b49f85c-e955-4329-a2c4-19ce43d28454")
-	)
-	(wire
-		(pts
 			(xy 148.59 38.1) (xy 158.75 38.1)
 		)
 		(stroke
@@ -5283,16 +5283,6 @@
 			(type default)
 		)
 		(uuid "a0ba4a82-d6d6-4928-a5b9-da5d69b52df1")
-	)
-	(wire
-		(pts
-			(xy 59.69 160.02) (xy 59.69 158.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a13c3bd7-5a66-4489-a195-401264cec390")
 	)
 	(wire
 		(pts
@@ -5373,6 +5363,16 @@
 			(type default)
 		)
 		(uuid "a620ab64-37ea-4faf-94b0-db1bb92dbe54")
+	)
+	(wire
+		(pts
+			(xy 81.28 196.342) (xy 81.28 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c89826-040f-4b4a-90d0-30217032985e")
 	)
 	(wire
 		(pts
@@ -5546,16 +5546,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 167.64) (xy 59.69 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc469c1-1ba5-44df-b5d2-b07a9bfcbd30")
-	)
-	(wire
-		(pts
 			(xy 280.67 95.25) (xy 289.56 95.25)
 		)
 		(stroke
@@ -5646,6 +5636,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 185.928) (xy 81.28 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35345a7-f782-42ce-b087-8a3f9c39c5f9")
+	)
+	(wire
+		(pts
 			(xy 203.2 53.975) (xy 203.835 53.975)
 		)
 		(stroke
@@ -5706,7 +5706,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 200.66) (xy 65.405 203.835)
+			(xy 65.532 200.66) (xy 65.532 203.962)
 		)
 		(stroke
 			(width 0)
@@ -6026,7 +6026,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 176.53) (xy 71.755 179.705)
+			(xy 71.882 176.53) (xy 71.882 179.832)
 		)
 		(stroke
 			(width 0)
@@ -6063,16 +6063,6 @@
 			(type default)
 		)
 		(uuid "faf58df0-8708-40e8-8b9c-997641597ac1")
-	)
-	(wire
-		(pts
-			(xy 59.69 154.94) (xy 59.69 158.115)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb33e42b-155f-4c71-9111-e78c6202c97e")
 	)
 	(wire
 		(pts
@@ -6215,7 +6205,7 @@
 		(uuid "6078876f-e897-4441-a2a1-a189909c4b9d")
 	)
 	(label "Low_In"
-		(at 77.216 198.12 0)
+		(at 87.122 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6825,7 +6815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 71.755 172.72 0)
+		(at 71.882 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -6836,7 +6826,7 @@
 		(fields_autoplaced yes)
 		(uuid "07aa0c56-08b3-47e0-8237-19cf1d8ed632")
 		(property "Reference" "R4"
-			(at 73.66 171.4499 0)
+			(at 73.787 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6847,7 +6837,7 @@
 			)
 		)
 		(property "Value" "6k8"
-			(at 73.66 173.9899 0)
+			(at 73.787 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6858,7 +6848,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 72.771 172.974 90)
+			(at 72.898 172.974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,7 +6859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.755 172.72 0)
+			(at 71.882 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +6870,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 71.755 172.72 0)
+			(at 71.882 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7735,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 71.755 179.705 0)
+		(at 71.882 179.832 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7756,7 +7746,7 @@
 		(fields_autoplaced yes)
 		(uuid "18f72372-b627-4770-9501-eecce6429596")
 		(property "Reference" "#GND019"
-			(at 71.755 184.785 0)
+			(at 71.882 184.912 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +7757,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 71.755 182.245 0)
+			(at 71.882 182.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +7768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.755 179.705 0)
+			(at 71.882 179.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 71.755 189.865 0)
+			(at 71.882 189.992 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +7790,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 71.755 187.325 0)
+			(at 71.882 187.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9118,7 +9108,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 65.405 203.835 0)
+		(at 65.532 203.962 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9129,7 +9119,7 @@
 		(fields_autoplaced yes)
 		(uuid "33e0f31e-4077-4853-bbe7-dcb52f59bc22")
 		(property "Reference" "#GND018"
-			(at 65.405 208.915 0)
+			(at 65.532 209.042 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9140,7 +9130,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 65.405 206.375 0)
+			(at 65.532 206.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,7 +9141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.405 203.835 0)
+			(at 65.532 203.962 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9162,7 +9152,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 65.405 213.995 0)
+			(at 65.532 214.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,7 +9163,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 65.405 211.455 0)
+			(at 65.532 211.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9793,6 +9783,84 @@
 			(project "DirtyMirrorV2"
 				(path "/e9716785-2a3b-4717-8412-b7bcb87af06c"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 81.28 185.928 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47134502-082c-408b-b3a1-7a97b937c48c")
+		(property "Reference" "#PWR05"
+			(at 81.28 189.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 81.28 181.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 81.28 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f596528-39d1-4006-929e-79500286fcad")
+		)
+		(instances
+			(project "DirtyMirrorV2"
+				(path "/e9716785-2a3b-4717-8412-b7bcb87af06c"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11002,7 +11070,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 59.69 154.94 0)
+		(at 71.882 154.432 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11013,7 +11081,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f8fcebb-caca-4d12-97e5-96c3ff831a05")
 		(property "Reference" "#PWR03"
-			(at 59.69 158.75 0)
+			(at 71.882 158.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11024,7 +11092,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 59.69 150.368 0)
+			(at 71.882 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11034,7 +11102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 154.94 0)
+			(at 71.882 154.432 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +11113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 154.94 0)
+			(at 71.882 154.432 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 59.69 154.94 0)
+			(at 71.882 154.432 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,7 +13539,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 71.755 163.195 90)
+		(at 71.882 163.322 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -13482,7 +13550,7 @@
 		(fields_autoplaced yes)
 		(uuid "95741307-3684-4330-82a4-003b8873a7f7")
 		(property "Reference" "D1"
-			(at 74.803 163.5124 90)
+			(at 74.93 163.6394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13493,7 +13561,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 74.803 166.0524 90)
+			(at 74.93 166.1794 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13504,7 +13572,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 71.755 163.195 0)
+			(at 71.882 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +13583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.755 163.195 0)
+			(at 71.882 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13526,7 +13594,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.755 163.195 0)
+			(at 71.882 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14563,85 +14631,6 @@
 			(project "DirtyMirrorV2"
 				(path "/e9716785-2a3b-4717-8412-b7bcb87af06c"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 59.69 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda268fb-ed02-4737-8ffe-2bbeedfe53e2")
-		(property "Reference" "#GND020"
-			(at 59.69 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 59.69 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 59.69 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 59.69 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "925fc4b4-8c14-4b4c-ab42-366c3109de5d")
-		)
-		(instances
-			(project "DirtyMirrorV2"
-				(path "/e9716785-2a3b-4717-8412-b7bcb87af06c"
-					(reference "#GND020")
 					(unit 1)
 				)
 			)
@@ -15744,7 +15733,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 59.69 163.83 0)
+		(at 81.28 192.532 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15755,7 +15744,7 @@
 		(fields_autoplaced yes)
 		(uuid "de9a3a76-64d5-42cc-8c62-fe33fd3ec9ea")
 		(property "Reference" "C2"
-			(at 63.5 161.9249 0)
+			(at 85.09 190.6269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15766,7 +15755,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 63.5 164.4649 0)
+			(at 85.09 193.1669 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15777,7 +15766,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 59.69 163.83 0)
+			(at 81.28 192.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15788,7 +15777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 163.83 0)
+			(at 81.28 192.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15799,7 +15788,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 59.69 163.83 0)
+			(at 81.28 192.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
