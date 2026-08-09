@@ -22,8 +22,18 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(166, 216, 84)",
-          "signal": "V(/FxRaw)",
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Bias)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/Gain)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/InputBiased)",
           "trace_type": 257
         }
       ]

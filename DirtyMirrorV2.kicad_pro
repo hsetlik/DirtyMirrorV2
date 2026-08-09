@@ -560,6 +560,10 @@
       {
         "netclass": "Power",
         "pattern": "0"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*Low_In"
       }
     ]
   },
@@ -711,7 +715,7 @@
         "uuid": "e9716785-2a3b-4717-8412-b7bcb87af06c"
       }
     ],
-    "used_designators": "#PWR5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
