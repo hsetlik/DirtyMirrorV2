@@ -14789,7 +14789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:Toggle_Dailywell_SubMini_SPDT"
+		(property "Footprint" "Button_Switch_THT:SW_SPDT_Dailywell_Mini_1M"
 			(at 354.33 166.37 0)
 			(hide yes)
 			(show_name no)
