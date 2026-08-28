@@ -715,7 +715,7 @@
         "uuid": "e9716785-2a3b-4717-8412-b7bcb87af06c"
       }
     ],
-    "used_designators": "R36",
+    "used_designators": "#PWR6,#GND3-7,#GND20-22,R36",
     "variants": []
   },
   "sheets": [
